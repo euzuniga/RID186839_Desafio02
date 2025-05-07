@@ -1,0 +1,1250 @@
+html {
+
+    font-size: 16px;
+}
+
+body {
+
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat";
+}
+
+
+.borda-azul {
+
+    background-color: #02A28F;
+    color: #FFFFFF;
+    padding: 0.1rem 8rem;
+
+}
+
+.principal {
+
+    padding: 3rem 8rem;
+
+
+}
+
+.banner {
+
+    background-image: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%), url(imagens/opiniao.jfif);
+    background-size: cover;
+    width: 45rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+#nome-banner {
+
+ font-weight: 400;
+ font-size: 1rem;
+ line-height: 1.2rem;
+ margin-top: 16rem;
+ margin-bottom: -1rem;
+
+}
+
+#titulo-banner {
+
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: -.5rem;
+    
+
+}
+
+#texto-banner {
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+
+}
+
+.secao-posts-recentes {
+
+    margin-top: -1.5rem;
+
+}
+
+.barra-secao {
+
+    background-color: #02A28F;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    width: 52.8rem;
+    height: 3.5rem;
+    box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+
+  
+
+}
+
+#titulo-recentes {
+
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 100%;
+    
+
+}
+
+#link-recentes {
+
+    font-weight: 500;
+    font-size: 0.87rem;
+    line-height: 100%;
+    text-decoration-style: solid;
+    
+
+}
+
+.posts-recentes {
+
+    width: 46.5rem;
+    height: 3.5rem;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    align-items: center;
+}
+
+#titulo-recentes {
+
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1,5rem;
+
+}
+
+#link-recentes {
+
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    cursor: pointer;
+
+}
+
+.secao-cards {
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 24rem;
+
+}
+
+.card {
+
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+    box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+    width: 25rem;
+    height: 30rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-right: 2.6rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out , transform 0.5s;
+}
+
+.card:hover {
+
+    transform: scale(1.02);
+
+}
+
+.card img {
+
+    width: 100%;
+}
+
+.conteudo-card {
+
+    padding: 1rem;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+
+}
+
+.genero {
+
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.07rem;
+    color: #02A28F;  
+    margin-top: -0.5rem;
+}
+
+.titulo-artigo {
+
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.52rem;
+    color: #000000;
+
+} 
+
+.autor-artigo {
+
+    font-weight: 500;
+    font-size: 0.87rem;
+    line-height: 1.07rem;
+    color: #616161; 
+    margin-top: -0.5rem;  
+
+}
+
+.texto-artigos {
+
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1rem;
+    letter-spacing: 0%;
+    color: #000000; 
+}
+
+.data {
+
+    font-weight: 500;
+    font-size: 0.87;
+    line-height: 1,07rem;
+    color: #616161; 
+
+}
+
+.divisão-principal{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.sidebar {
+
+    margin-left: 3rem;
+
+}
+
+.barra-secao-posts {
+
+    width: 25rem;
+    margin-bottom: 2rem;
+    margin-top: -1.3rem;
+    background-color: #02A28F;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    height: 3.5rem;
+    justify-content: center;   
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 100%;
+    box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+
+    
+
+}
+
+#titulo-post-popular {
+
+    margin-left: 1rem;
+    padding: 1rem;
+
+}
+
+.item-popular {
+
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+    box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+    margin-bottom: 1.4rem;
+    width: 25rem;
+    height: 6.5rem;
+    text-align: left;
+    align-items: start;
+    transition: 0.5s ease-in-out , transform 0.5s;
+    cursor: pointer;
+
+}
+
+.item-popular:hover {
+
+    transform: scale(1.02);
+
+
+}
+
+.imagem-posts-populares {
+
+    padding: 1rem;
+
+}
+
+.titulos-posts {
+
+    margin-left: -2rem ;
+
+}
+
+.data-posts {
+
+    margin-left: -2rem ;
+    margin-top: -1rem;
+   
+
+}
+
+.divisao-secundaria {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.categorias {
+
+    margin-left: -23rem;
+
+}
+
+.barra-secao-categorias {
+
+    width: 25rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    background-color: #02A28F;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    height: 3.5rem;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 100%;
+    box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+
+    
+
+}
+
+#titulo-categorias {
+
+    padding: 1rem;
+    margin-left: 1rem;
+
+
+}
+
+.topicos {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: #616161;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 100%;
+    margin-left: .2rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out , transform 0.5s;
+
+}
+
+.topicos:hover {
+
+    transform: scale(1.02);
+
+
+}
+
+
+.numeros {
+
+    margin-left: 7rem;
+
+}
+
+footer {
+
+background-color: #02A28F;
+color: #FFFFFF;
+text-align: center;
+justify-content: center;
+align-items: center;
+height: 5rem;
+
+}
+
+#texto-rodape {
+
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 0.87rem;
+    line-height: 100%;
+    
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+
+    html {
+
+        font-size: 16px;
+    }
+    
+    body {
+    
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        font-family: "Montserrat";
+    }
+    
+    
+    .borda-azul {
+    
+        background-color: #02A28F;
+        color: #FFFFFF;
+        padding: 0.1rem 8rem;
+        width: 75rem;
+        height: 10rem;
+    
+    }
+
+    #titulo-cabecalho {
+
+        font-size: 3rem;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3rem;
+
+    }
+    
+    .principal {
+    
+        padding: 3rem 4rem;
+    
+    
+    }
+    
+    .banner {
+    
+        background-image: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%), url(imagens/opiniao.jfif);
+        background-size: cover;
+        width: 75.5rem;
+        height: 30rem;
+        border-radius: 1rem;
+        background-repeat: no-repeat;
+        padding: 4rem;
+        color: #FFFFFF;
+        cursor: pointer;
+    
+    }
+    
+    
+    #nome-banner {
+    
+     font-weight: 400;
+     font-size: 2rem;
+     line-height: 1.2rem;
+     margin-top: 22rem;
+     margin-bottom: -1rem;
+    
+    }
+    
+    #titulo-banner {
+    
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 2.4rem;
+        margin-bottom: -.5rem;
+        
+    
+    }
+    
+    #texto-banner {
+    
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 1.2rem;
+    
+    }
+    
+    .secao-posts-recentes {
+    
+        margin-top: -1.5rem;
+    
+    }
+    
+    .barra-secao {
+    
+        background-color: #02A28F;
+        color: #FFFFFF;
+        border-radius: 1rem;
+        width: 83rem;
+        height: 5rem;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+    
+      
+    
+    }
+    
+    #titulo-recentes {
+    
+        font-weight: 700;
+        font-size: 2rem;
+        
+        
+    
+    }
+    
+    #link-recentes {
+    
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 100%;
+        text-decoration-style: solid;
+        margin-right: -24rem;
+    
+    }
+    
+    .posts-recentes {
+    
+        width: 46.5rem;
+        height: 3.5rem;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        display: flex;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        padding: 0.5rem;
+        align-items: center;
+    }
+    
+    
+    #link-recentes {
+    
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+        cursor: pointer;
+    
+    }
+    
+    .secao-cards {
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    
+    .card {
+    
+        border-radius: 1rem;
+        background-color: #FFFFFF;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+        width: 40rem;
+        height: 48rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+        cursor: pointer;
+        transition: 0.5s ease-in-out , transform 0.5s;
+    }
+    
+    .card:hover {
+    
+        transform: scale(1.02);
+    
+    }
+    
+    .card img {
+    
+        width: 100%;
+    }
+    
+    .conteudo-card {
+    
+        padding: 2rem;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    
+    }
+    
+    .genero {
+    
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.07rem;
+        color: #02A28F;  
+        margin-top: 1rem;
+    }
+    
+    .titulo-artigo {
+    
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #000000;
+    
+    } 
+    
+    .autor-artigo {
+    
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        color: #616161; 
+        margin-top: -0.5rem;  
+    
+    }
+    
+    .texto-artigos {
+    
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+        letter-spacing: 0%;
+        color: #000000; 
+    }
+    
+    .data {
+    
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        color: #616161; 
+    
+    }
+    
+    .divisão-principal{
+    
+        display:flex;
+        flex-direction: column;    
+    }
+    
+    .sidebar {
+
+        margin-left: 0;
+
+    }
+    
+    .barra-secao-posts {
+    
+        width: 83rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        background-color: #02A28F;
+        color: #FFFFFF;
+        border-radius: 1rem;
+        height: 5rem;
+        justify-content: center;   
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 100%;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+    
+        
+    
+    }
+    
+    #titulo-post-popular {
+    
+        text-align: center;
+        justify-content: center;
+        font-size: 2rem;
+        padding: 1.7rem;
+    
+    }
+    
+    .item-popular {
+    
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+        border-radius: 1rem;
+        background-color: #FFFFFF;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+        margin-bottom: 1.4rem;
+        width: 83rem;
+        height: 10rem;
+        text-align: left;
+        align-items: start;
+        transition: 0.5s ease-in-out , transform 0.5s;
+        cursor: pointer;
+    
+    }
+    
+    .item-popular:hover {
+    
+        transform: scale(1.02);
+    
+    
+    }
+    
+    .imagem-posts-populares {
+    
+        padding: 1rem;
+        margin-top: -1rem;
+        width: 15rem ;
+        height: 10rem;
+    
+    }
+    
+    .titulos-posts {
+    
+        margin-left: -28rem;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    
+    }
+    
+    .data-posts {
+    
+        margin-left: -28rem;
+        margin-top: -1rem;
+        font-size: 1.5rem;
+       
+    
+    }
+    
+    .divisao-secundaria {
+    
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    .categorias {
+    
+        margin-left: 0rem;
+    
+    }
+    
+    .barra-secao-categorias {
+    
+        width: 83rem;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+        background-color: #02A28F;
+        color: #FFFFFF;
+        border-radius: 1rem;
+        height: 5rem;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 100%;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+    
+        
+    
+    }
+    
+    #titulo-categorias {
+    
+        padding: 1.5rem;
+        font-size: 2rem;
+        text-align: center;
+        justify-content: center;
+    
+    
+    }
+    
+    .topicos {
+    
+        width: 82rem;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        color: #616161;
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2rem;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        transition: 0.5s ease-in-out , transform 0.5s;
+    
+    }
+    
+    .topicos:hover {
+    
+        transform: scale(1.02);
+    
+    
+    }
+    
+    
+    .numeros {
+    
+        margin-left: 40rem;
+
+    }
+    
+    footer {
+    
+    background-color: #02A28F;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 91rem;
+    height: 10rem;
+    
+    }
+    
+    #texto-rodape {
+    
+        padding: 4rem;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 100%;
+        
+    
+    
+    }
+
+
+
+}
+
+@media only screen and (max-width:767px) {
+
+    html {
+
+        font-size: 16px;
+    }
+    
+    body {
+    
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        font-family: "Montserrat";
+    }
+    
+    
+    .borda-azul {
+    
+        background-color: #02A28F;
+        color: #FFFFFF;
+        width: 64rem;
+        height: 15rem;
+    
+    }
+
+    #titulo-cabecalho {
+
+        font-weight: 700;
+        font-size: 5rem;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5rem;
+        
+
+    }
+    
+    .principal {
+    
+        padding: 2rem 2rem;
+    
+    }
+    
+    .banner {
+    
+        background-image: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%), url(imagens/opiniao.jfif);
+        background-size: cover;
+        width: 68rem;
+        height: 70rem;
+        border-radius: 2rem;
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        cursor: pointer;
+    
+    }
+    
+    
+    #nome-banner {
+    
+     font-weight: 400;
+     font-size: 3rem;
+     line-height: 1.2rem;
+     margin-top: 48rem;
+     margin-bottom: -1rem;
+    
+    }
+    
+    #titulo-banner {
+    
+        font-weight: 700;
+        font-size: 5rem;
+        line-height: 5.5rem;
+        margin-bottom: -.5rem;
+        
+    
+    }
+    
+    #texto-banner {
+    
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 1.2rem;
+    
+    }
+    
+    .secao-posts-recentes {
+    
+        margin-top: -1rem;
+        
+    }
+    
+    .barra-secao {
+    
+        background-color: #02A28F;
+        color: #FFFFFF;
+        border-radius: 2rem;
+        width: 75rem;
+        height: 8rem;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+    
+      
+    
+    }
+    
+    #titulo-recentes {
+
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 100%;
+        margin-top: -1rem;        
+    
+    }
+    
+
+    #link-recentes {
+    
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 100%;
+        text-decoration-style: solid;
+        margin-top: -1rem;
+        
+    
+    }
+    
+    .posts-recentes {
+    
+        width: 67rem;
+        height: 10rem;
+        justify-content: space-between;
+        border-radius: 2rem;
+        display: flex;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        align-items: center;
+        padding: 1rem;
+
+    }
+    
+    
+    #link-recentes {
+    
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+        cursor: pointer;
+    
+    }
+    
+    .secao-cards {
+    
+        display: flex;    
+        flex-direction: column;
+
+    }
+    
+    .card {
+    
+        border-radius: 2rem;
+        background-color: #FFFFFF;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+        width: 75rem;
+        height: 85rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        margin-left: -1rem;
+        cursor: pointer;
+        transition: 0.5s ease-in-out , transform 0.5s;
+        padding: 1rem;
+        
+    }
+    
+    .card:hover {
+    
+        transform: scale(1.02);
+    
+    }
+    
+    .card img {
+    
+        width: 100%;
+    }
+    
+    .conteudo-card {
+    
+        padding: 3rem;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+
+    
+    }
+    
+    .genero {
+    
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 3rem;
+        color: #02A28F;  
+        margin-top: -0.5rem;
+    }
+    
+    .titulo-artigo {
+    
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 4rem;
+        color: #000000;
+        margin-top: -1rem;
+    
+    } 
+    
+    .autor-artigo {
+    
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 1.07rem;
+        color: #616161; 
+        margin-top: -0.5rem;  
+    
+    }
+    
+    .texto-artigos {
+    
+        width: 70rem;
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 4rem;
+        color: #000000; 
+    }
+    
+    .data {
+    
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 1.07rem;
+        color: #616161; 
+    
+    }
+    
+    .divisão-principal{
+    
+        display: flex; 
+        flex-direction: column;   
+    }
+    
+    .sidebar {
+    
+        margin-left: 3rem;
+    
+    }
+    
+    .barra-secao-posts {
+    
+        width: 75rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        background-color: #02A28F;
+        color: #FFFFFF;
+        border-radius: 2rem;
+        height: 8rem;
+        justify-content: center;   
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 100%;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+        margin-left: -2.5rem;
+    
+        
+    
+    }
+    
+    #titulo-post-popular {
+    
+        margin-left: 1rem;
+        padding: 3rem;
+        font-size: 4rem;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    
+    .item-popular {
+    
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+        border-radius: 1rem;
+        background-color: #FFFFFF;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+        margin-bottom: 4rem;
+        width: 75rem;
+        height: 20rem;
+        text-align: left;
+        align-items: start;
+        transition: 0.5s ease-in-out , transform 0.5s;
+        cursor: pointer;
+        margin-left: -2.5rem;
+    
+    }
+    
+    .item-popular:hover {
+    
+        transform: scale(1.02);
+    
+    
+    }
+    
+    .imagem-posts-populares {
+    
+        padding: 1rem;
+        width: 28rem;  
+        height: 26rem;  
+        margin-top: -4rem;
+        margin-left: 2rem;
+    }
+    
+    .titulos-posts {
+    
+        margin-left: -2rem ;
+        font-size: 3rem;
+    
+    }
+    
+    .data-posts {
+    
+        margin-left: -2rem ;
+        margin-top: -1rem;
+       font-size: 2.5rem;
+    
+    }
+    
+    .divisao-secundaria {
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+    .barra-secao-categorias {
+    
+        width: 76rem;
+        margin-bottom: 1rem;
+        margin-top: -2rem;
+        margin-left: 23rem;
+        background-color: #02A28F;
+        color: #FFFFFF;
+        border-radius: 2rem;
+        height: 8rem;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 100%;
+        box-shadow: 0rem .6rem 1.25rem 0rem #0000001A;
+    
+        
+    
+    }
+    
+    #titulo-categorias {
+    
+        padding: 3rem;
+        margin-left: 1rem;
+        font-size: 4rem;
+        text-align: center;
+        justify-content: center;
+    
+    
+    }
+    
+    .topicos {
+    
+        width: 70rem;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        color: #616161;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 2rem;
+        margin-left: 26rem;
+        cursor: pointer;
+        transition: 0.5s ease-in-out , transform 0.5s;
+    
+    }
+    
+    .topicos:hover {
+    
+        transform: scale(1.02);
+    
+    
+    }
+
+    .numeros {
+
+        margin-left: 30rem;
+
+    }
+    
+    
+    footer {
+    
+    background-color: #02A28F;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    height: 12rem;
+    
+    }
+    
+    #texto-rodape {
+    
+        padding: 4rem;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 100%;
+        
+    
+    
+    }
+
+
+
+}
